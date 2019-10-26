@@ -1,0 +1,771 @@
+/*************************************************** for big tablet to 1200px (widths smaller than the 1140px row) */
+@media only screen and (max-width: 1200px) {
+
+    .header-text {
+        font-size: 90%;
+        width: 100%;
+        padding: 0 10%;
+    }
+
+    .features-section .jobs{
+        height: 275px;
+        width: 400px;
+    }
+
+    .sweet {
+        height: 360px;
+        width: 580px;
+    }
+
+    .process-section h3 {
+        line-height: 2.2rem;
+        position: relative;
+        font-size: 17px;
+        text-align: right;
+    }
+      
+    .process-section h3::before {
+        content: counter(ctr);
+        counter-increment: ctr;
+        display: block;
+        font-size: 1.1rem;
+        font-weight: 500;
+        text-align: center;
+        color: #FFFFFF;
+        background-color: #e74c3c;
+        height: 2rem;
+        width: 2rem;
+        border-radius: 50%;
+        position: absolute;
+        top: 0;
+        right: 100px;
+      }
+
+    h4 {
+        font-size: 150%;
+    }
+
+    h5 {
+        font-size: 210%;
+    }
+
+    .potential-section img {
+        padding-top: 0;
+        padding-bottom: 0;
+        margin-bottom: 0;
+        margin-top: 30px;
+        height: 80%;
+        width: 80%;
+    }
+
+    .potential-section .p-lg-feature{
+        font-size: 18px;
+    }
+
+    .diamond {
+        height: 370px;
+        width: 500px;
+    }
+
+    .blueprint {
+        height: 450px;
+        width: 550px;
+    }
+
+    .journey {
+        height: 270px;
+        width: 550px;
+    }
+
+
+}
+
+
+
+/***************************************************** for small tablet to big tablet: from 768px to 992px */
+@media only screen and (max-width: 992px) {
+
+/* ------------------------------------- */
+/* MAIN */
+/* ------------------------------------- */
+
+body { font-size: 20px; }
+
+/*-- HEADERS --*/
+
+    h2 { font-size: 160%; }
+
+    h4 { 
+        font-size: 150%; 
+        margin-top: 180px;
+    }
+
+    h5 { 
+        font-size: 180%; 
+        margin-bottom: 50px;
+    }
+
+/*-- PARAGRAPHS --*/
+
+    .p-lg-feature,
+    .short-copy {
+    font-size: 19px;
+    width: 85%;
+    margin-left: 6.5%;
+    }
+
+/* ------------------------------------- */
+/* FEATURES */
+/* ------------------------------------- */
+
+/*-- NAVIGATION-LOGO --*/
+
+    .meter-logo {
+
+        width: 70%;
+        height:auto;
+        
+    }
+
+/*-- FORMS --*/
+
+    .form-group { 
+        padding: 0 8%; 
+    }
+
+    .form-row {
+        margin-left: 12%;
+    }
+
+    .btn-fix-contact, 
+    .btn-fix-signup {
+        padding: 0 5%;
+        font-size: 110%;
+    }
+
+    .btn-fix-contact {
+        width: 84%;
+    }
+
+    .btn-fix-signup {
+        margin-left: 12.5%;
+        width: 73%; 
+    }
+
+/* ------------------------------------- */
+/* HEADERS */
+/* ------------------------------------- */
+
+/*-- MAIN HEADER --*/
+
+    .header-text {
+        font-size: 90%;
+        width: 100%;
+        padding: 0 10%;
+    }
+
+    .second-header {
+        display: table;
+        width: 100%;
+        height: 35vh;
+        background-image: url(../css/shatter.gif);
+        position: relative;
+        overflow: hidden;
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    
+
+/* ------------------------------------- */
+/* SECTIONS*/
+/* ------------------------------------- */
+
+    .primary-section {
+        padding: 15% 16% 10% 16%;
+        text-align: center;
+    }
+
+    .secondary-section {
+        padding: 13% 7% 10% 7%;
+    }
+
+
+
+/*--FEATURE-SECTION--*/
+
+    .features-section {
+        text-align: center;
+    }
+
+    .features-section .jobs{
+        height: 250px;
+        width: 350px;
+    }
+
+    .diamond {
+        height: 330px;
+        width: 440px;
+    }
+
+    .blueprint {
+        height: 400px;
+        width: 500px;
+    }
+
+    .journey {
+        height: 260px;
+        width: 550px;
+    }
+    
+/*--CONTACT-SECTION--*/
+
+    .contact-section { padding: 15% 0; }
+
+    .map { padding: 0 10% 5% 10%; }
+
+/*--SWEET-SECTION--*/
+
+    .sweet {
+        height: 330px;
+        width: 530px;
+    }
+
+/*--ODOMETER-SECTION--*/
+
+    .odometer { font-size: 210%; }
+
+/*--PROCESS-SECTION--*/
+
+    .process-section { 
+        padding: 15% 15% 0 15%;
+        text-align: center;
+    }
+
+    .process-section h3 {
+        line-height: 2.2rem;
+        position: relative;
+        text-align: center;
+    }
+      
+    .process-section h3::before {
+        content: counter(ctr);
+        counter-increment: ctr;
+        display: block;
+        font-size: 1.1rem;
+        font-weight: 500;
+        text-align: center;
+        color: #FFFFFF;
+        background-color: #e74c3c;
+        height: 2.2rem;
+        width: 2.2rem;
+        border-radius: 50%;
+        position: absolute;
+        top: 0;
+        left: 90px;
+      }
+
+/*--POTENTIAL-SECTION--*/
+
+    .potential-section { padding: 0 8%; }
+
+    .photo-image { padding-top: 20% }
+ 
+    .photo-image-p { padding-top: 0; }
+
+    .potential-section img {
+        padding-top: 0;
+        padding-bottom: 0;
+        margin-bottom: 0;
+        height: 90%;
+        width: 60%;
+    }
+
+
+/*--AVAILABLE-SECTION--*/
+
+    .table {
+        width: 80%;
+        margin-left: 12%;
+        font-family: 'Lato';
+        text-align: left;
+    }
+    
+    .table td{
+        font-weight: 400;
+        font-size: 19px;
+    }
+
+    .table tr{
+        text-align: left;
+    }
+    
+    .table .p-lg-feature {
+        font-weight: 380;
+        color: black;
+        font-size: 18px;
+    }
+
+/* ------------------------------------- */
+/* FOOTER */
+/* ------------------------------------- */
+
+    .main-footer {
+        font-size: 90%;
+        padding: 8% 0;
+        text-align: center;
+    }   
+
+
+}
+
+
+
+/****************************************************** for small phones to small tablets: 767px */
+@media only screen and (max-width: 767px) {
+
+/* ------------------------------------- */
+/* MAIN */
+/* ------------------------------------- */
+
+body { font-size: 17px; }
+
+/*-- HEADERS --*/
+
+    h2 { font-size: 170%; }
+
+    h4 { 
+        font-size: 140%; 
+        margin-top: 140px;
+    }
+
+    h5 { 
+        font-size: 155%; 
+        margin-bottom: 30px;
+    }
+
+/*-- PARAGRAPHS --*/
+
+    .p-lg-feature,
+    .short-copy {
+    font-size: 16px;
+    width: 90%;
+    margin-left: 6.5%;
+    }
+
+/* ------------------------------------- */
+/* FEATURES */
+/* ------------------------------------- */
+
+/*-- NAVIGATION-LOGO --*/
+
+    .meter-logo {
+        width: 75%;
+        height: auto;
+    }
+
+/*-- FORMS --*/
+
+    .form-group,
+    .form-row { 
+        padding: 0 10%; 
+    }
+
+    .form-row {
+        margin-right: 10%;
+    }
+
+    .btn-fix-contact, 
+    .btn-fix-signup {
+        padding: 0 2%;
+        font-size: 110%;
+    }
+
+    .btn-fix-contact {
+        width: 80%;
+    }
+    .btn-fix-signup {
+        margin-left: 23%;
+        width: 56%;
+    }
+
+/* ------------------------------------- */
+/* HEADERS */
+/* ------------------------------------- */
+
+/*-- MAIN HEADER --*/
+
+    .header-text {
+        font-size: 75%;
+        width: 100%;
+        padding: 0 10%;
+    }
+
+    .second-header {
+        display: table;
+        width: 100%;
+        height: 20vh;
+        background-image: url(../css/shatter.gif);
+        position: relative;
+        overflow: hidden;
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    
+
+/* ------------------------------------- */
+/* SECTIONS*/
+/* ------------------------------------- */
+
+    .primary-section {
+        padding: 13% 15% 10% 15%;
+        text-align: center;
+    }
+
+    .secondary-section {
+        padding: 13% 0 10% 0;
+    }
+
+    
+
+/*--FEATURE-SECTION--*/
+
+    .features-section {
+        text-align: center;
+    }
+
+    .features-section .jobs{
+        height: 180px;
+        width: 250px;
+    }
+
+    .diamond {
+        height: 270px;
+        width: 350px;
+    }
+
+    .blueprint {
+        height: 300px;
+        width: 380px;
+    }
+
+    .journey {
+        height: 180px;
+        width: 400px;
+    }
+
+/*--CONTACT-SECTION--*/
+
+    .contact-section { padding: 15% 0; }
+
+    .map { padding: 0 13% 5% 13%; }
+
+/*--SWEET-SECTION--*/
+
+    .sweet {
+        height: 220px;
+        width: 360px;
+    }
+
+/*--ODOMETER-SECTION--*/
+
+    .odometer { font-size: 230%; }
+
+/*--PROCESS-SECTION--*/
+
+    .process-section { 
+        padding: 15% 15% 0 15%;
+        text-align: center;
+    }
+
+    .process-section h3 {
+        line-height: 1.9rem;
+        position: relative;
+        text-align: center;
+    }
+      
+    .process-section h3::before {
+        content: counter(ctr);
+        counter-increment: ctr;
+        display: block;
+        font-size: 1rem;
+        font-weight: 500;
+        text-align: center;
+        color: #FFFFFF;
+        background-color: #e74c3c;
+        height: 1.8rem;
+        width: 1.8rem;
+        border-radius: 50%;
+        position: absolute;
+        top: 1px;
+        left: 40px;
+      }
+
+/*--POTENTIAL-SECTION--*/
+
+    .potential-section { padding: 0 8%; }
+
+    .photo-image { padding-top: 20% }
+ 
+    .photo-image-p { padding-top: 0; }
+
+    .potential-section img {
+        padding-top: 0;
+        padding-bottom: 0;
+        margin-bottom: 0;
+        height: 90%;
+        width: 60%;
+    }
+
+
+/*--AVAILABLE-SECTION--*/
+
+    .table {
+        width: 80%;
+        margin-left: 15%;
+        font-family: 'Lato';
+        text-align: left;
+    }
+    
+    .table td{
+        font-weight: 400;
+        font-size: 16px;
+    }
+
+    .table tr{
+        text-align: left;
+    }
+    
+    .table .p-lg-feature {
+        font-weight: 380;
+        color: black;
+        font-size: 15px;
+    }
+
+/* ------------------------------------- */
+/* FOOTER */
+/* ------------------------------------- */
+
+    .main-footer {
+        font-size: 100%;
+        padding: 8% 0;
+        text-align: center;
+    }   
+
+
+}
+
+
+/************************************************************************** for small phones: from 0 to 490px */
+@media only screen and (max-width: 490px) {
+
+/* ------------------------------------- */
+/* MAIN */
+/* ------------------------------------- */
+
+    body { font-size: 16px; }
+
+/*-- HEADERS --*/
+
+    h2 { font-size: 160%; }
+
+    h4 { 
+        font-size: 120%; 
+        margin-top: 90px;
+    }
+
+    h5 { 
+        font-size: 150%; 
+        margin-bottom: 30px;
+    }
+
+/*-- PARAGRAPHS --*/
+
+    .p-lg-feature,
+    .short-copy {
+    font-size: 14px;
+    width: 90%;
+    margin-left: 6.5%;
+    }
+
+/* ------------------------------------- */
+/* FEATURES */
+/* ------------------------------------- */
+
+/*-- NAVIGATION-LOGO --*/
+
+    .meter-logo {
+        width: 75%;
+        height: auto;
+    }
+
+/*-- FORMS --*/
+
+    .form-group,
+    .form-row { 
+        padding: 0 10%; 
+    }
+
+    .btn-fix-contact, 
+    .btn-fix-signup {
+        padding: 0 5%;
+        font-size: 110%;
+        width: 80%;
+    }
+
+    .btn-fix-signup {
+        margin-left: 23.5%;
+        width: 55%;
+    }
+
+/* ------------------------------------- */
+/* HEADERS */
+/* ------------------------------------- */
+
+/*-- MAIN HEADER --*/
+
+    .header-text {
+        font-size: 80%;
+        width: 100%;
+        padding: 0 10%;
+    }
+
+    .second-header {
+        display: table;
+        width: 100%;
+        height: 5vh;
+        background-image: url(../css/shatter.gif);
+        position: relative;
+        overflow: hidden;
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    
+
+/* ------------------------------------- */
+/* SECTIONS*/
+/* ------------------------------------- */
+
+    .primary-section {
+        padding: 20% 10% 10% 10%;
+        text-align: center;
+    }
+
+    .secondary-section {
+        padding: 20% 0 10% 0;
+    }
+
+    
+
+/*--FEATURE-SECTION--*/
+
+    .features-section {
+        text-align: center;
+    }
+
+    .features-section .jobs{
+        height: 10%;
+        width: 90%;
+    }
+
+/*--CONTACT-SECTION--*/
+
+    .contact-section { padding: 20% 0; }
+
+    .map { padding: 0 13% 5% 13%; }
+
+/*--ODOMETER-SECTION--*/
+
+    .odometer { font-size: 220%; }
+
+/*--PROCESS-SECTION--*/
+
+    .process-section { 
+        padding: 20% 8% 0 8%;
+        text-align: center;
+    }
+
+    .process-section h3 {
+        line-height: 1.9rem;
+        position: relative;
+        text-align: center;
+    }
+      
+    .process-section h3::before {
+        content: counter(ctr);
+        counter-increment: ctr;
+        display: block;
+        font-size: 1rem;
+        font-weight: 500;
+        text-align: center;
+        color: #FFFFFF;
+        background-color: #3498db;
+        height: 1.8rem;
+        width: 1.8rem;
+        border-radius: 50%;
+        position: absolute;
+        top: 1px;
+        left: 30px;
+      }
+
+/*--POTENTIAL-SECTION--*/
+
+    .potential-section { padding: 0 8%; }
+
+    .photo-image { padding-top: 20% }
+ 
+    .photo-image-p { padding-top: 0; }
+
+    .potential-section img {
+        padding-top: 0;
+        padding-bottom: 0;
+        margin-bottom: 0;
+        height: 80%;
+        width: 70%;
+    }
+
+    .potential-section .p-lg-feature {
+        font-size: 16px;
+    }
+
+
+/*--AVAILABLE-SECTION--*/
+
+    .table {
+        width: 80%;
+        margin-left: 15%;
+        font-family: 'Lato';
+        text-align: left;
+    }
+    
+    .table td{
+        font-weight: 400;
+        font-size: 14px;
+    }
+
+    .table tr{
+        text-align: left;
+    }
+    
+    .table .p-lg-feature {
+        font-weight: 380;
+        color: black;
+        font-size: 13px;
+    }
+
+/* ------------------------------------- */
+/* FOOTER */
+/* ------------------------------------- */
+
+    .main-footer {
+        text-align: center;
+        font-size: 90%;
+        padding: 8% 0;
+    }   
+
+}

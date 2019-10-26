@@ -1,0 +1,616 @@
+/* ------------------------------------- */
+/* MAIN */
+/* ------------------------------------- */
+
+body {
+    background: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    font-family: 'Lato';
+}
+
+html {
+    background-color: #fff;
+    color: #555;
+    font-family: 'Lato', 'Arial', sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    text-rendering: optimizeLegibility;
+}
+
+/*-- HEADERS --*/
+h1,
+h2,
+h3 {
+    font-weight: 300;
+    text-transform: uppercase;
+}
+
+h1 {
+    margin-top: 0;
+    margin-bottom: 20px;
+    color: #fff;
+    font-size: 220%; 
+    word-spacing: 4px;
+    letter-spacing: 1px;
+}
+
+h2 {
+    font-size: 180%;
+    word-spacing: 2px;
+    text-align: center;
+    margin-bottom: 30px;
+    letter-spacing: 1px;
+    color: #555;
+}
+
+h2:after {
+    display: block;
+    height: 2px;
+    background-color: #e74c3c;
+    content: " ";
+    width: 200px;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+
+h3 {
+    font-size: 110%;
+    text-align: center;
+    color: #555;
+    margin-bottom: 15px;
+}
+
+h4 {
+    color: #e74c3c;
+    font-size: 150%;
+    margin-top: 190px;
+
+}
+
+h5 {
+    color: white;
+    font-size: 250%;
+    font-weight: 300;
+}
+
+/*-- PARAGRAPHS --*/
+
+.p-feature,
+.p-lg-feature {
+    font-weight: 350;
+    color: #555;
+}
+
+
+.p-feature {
+    font-size: 90%;
+}
+
+.short-copy {
+    line-height: 145%;
+    width: 70%;
+    margin-left: 15%;
+    text-align: center;
+    margin-bottom: 30px;
+    color: #555;
+}
+
+/* ------------------------------------- */
+/* FEATURES */
+/* ------------------------------------- */
+
+/*-- NAVIGATION-LOGO --*/
+
+.meter-logo img{
+    width: 25%;
+    height: 25%;
+}
+
+
+/*-- ICON --*/
+
+.icon {
+    font-size: 300%;
+    color: #e74c3c;
+    margin-bottom: 10px
+}
+
+/*-- BUTTONS --*/
+.btn-circle {
+    display: inline-block;
+    padding: 10px 30px;
+    border-radius: 15px;
+    text-align: center;
+    font-size: 15px; 
+    line-height: 1.1;
+    text-transform: uppercase;
+    background-color: #e74c3c;
+    border-radius: 200px;
+}
+
+.btn-circle:hover {
+    background-color: #e74c3c;
+}
+
+.btn-outline-primary {
+    display: inline-block;
+    padding: 10px 30px;
+    border-radius: 15px;
+    text-align: center;
+    font-size: 15px; 
+    line-height: 1.1;
+    text-transform: uppercase;
+    color: #e74c3c;
+    border-radius: 200px;
+    border-color: #e74c3c;
+}
+
+.btn-outline-primary:hover {
+    background-color: #e74c3c;
+}
+
+.btn-fix-contact, 
+.btn-fix-signup {
+    padding: 0 2%;
+    font-size: 110%;
+    width: 100%;
+}
+
+
+/* ------------------------------------- */
+/* NAVIGATION */
+/* ------------------------------------- */
+/*-- NAVIGATION BAR --*/
+
+.navbar {
+    font-weight: 300;
+    opacity: 0.95;
+    background-color: #e74c3c;
+}
+
+.navbar-nav {
+    color: #e74c3c;
+    font-size: 20px;
+    list-style: none;
+    margin-top: 40px;
+}
+
+.navbar-nav li a:link,
+.navbar-nav li a:visited {
+    padding: 5px 0;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 90%;
+    border-spacing: 0;
+    border-bottom: 2px solid transparent;
+    transition: border-bottom 0.5s;
+}
+
+.navbar-nav li a:hover,
+.navbar-nav li a:active {
+    border-bottom: 2px solid white;
+}
+
+/* ------------------------------------- */
+/* HEADERS */
+/* ------------------------------------- */
+
+/*-- MAIN HEADER --*/
+
+.main-header {
+    display: table;
+    width: 100%;
+    height: 100vh;
+    min-height: 786px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../css/shatter.gif);
+    opacity: 1;
+    position: relative;
+    overflow: hidden;
+
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+  .header-text {
+    position: absolute;
+    width: 1140px;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+/*-- SECOND HEADER (FOR SECONDARY HTML FILES) --*/
+
+.second-header {
+    display: table;
+    width: 100%;
+    height: 50vh;
+    background-image: url(../css/shatter.gif);
+    position: relative;
+    overflow: hidden;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+/* ------------------------------------- */
+/* INDEX.HTML FILE */
+/* ------------------------------------- */
+/*--FEATURE-SECTION--*/
+
+.features-section {
+    padding-top: 120px;
+    padding-bottom: 70px;
+    background-color: #f4f4f4;
+}
+
+.jobs {
+    margin-bottom: 30px;
+    height: 350px;
+    width: 510px;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/*--COSMOS-SECTION--*/
+
+.cosmos-section {
+    padding-top: 120px;
+    background-color: white;
+    padding-bottom: 70px;
+}
+
+/*--SWEET-SECTION--*/
+
+.sweet-section {
+    padding-top: 120px;
+    background-color: #e74c3c;
+    padding-bottom: 70px;
+}
+
+.sweet-section h2 {
+    color: white;
+}
+
+.sweet-section h2:after {
+    display: block;
+    height: 2px;
+    background-color: white;
+    content: " ";
+    width: 200px;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+
+.sweet-section .short-copy {
+    color: white;
+}
+
+.sweet-section .icon {
+    color: white;
+}
+
+.sweet-section .p-feature {
+    color: white;
+}
+
+.sweet-section h3 {
+    color: white;
+}
+
+/*--ODEMETER-SECTION--*/
+
+.odometer-section  {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url("galaxy.jpg");
+    padding-top: 120px;
+    padding-bottom: 120px; 
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.odometer-section h3 {
+    margin-top: 0;
+    color: white;
+}
+
+.odometer {
+    font-size: 50px;
+    color: #e74c3c;
+    margin-bottom: 5px;;
+}
+
+
+.odometer_number_one .odometer-inside:after {
+    content: " +";
+}
+
+/*--PROCESS-SECTION--*/
+
+.process-section {
+    padding-top: 120px;
+    background-color: #f4f4f4;
+    counter-reset: ctr;
+}
+
+.process-section img {
+    height: 60%;
+    width: 60%;
+}
+  
+.process-section h3 {
+    margin-top: 50px;
+    line-height: 2.5rem;
+    position: relative;
+  }
+  
+.process-section h3::before {
+    content: counter(ctr);
+    counter-increment: ctr;
+    display: block;
+    font-size: 1.2rem;
+    font-weight: 500;
+    text-align: center;
+    color: #FFFFFF;
+    background-color: #e74c3c;
+    height: 2.3rem;
+    width: 2.3rem;
+    border-radius: 50%;
+    position: absolute;
+    left: 0;
+    top: 0;
+  }
+
+  .flat {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      width: 250px;
+      height: 250px;
+  }
+
+
+/*--POTENTIAL-SECTION--*/
+
+.potential-section hr {
+    background-color: none !important;
+    height: 1px !important;
+    width: 70% !important;
+}
+
+.photo-image {
+    background-color: white;
+    padding-top: 170px;
+    padding-bottom: 70px;
+    position: left;
+}
+
+.photo-image-p {
+    padding-top: 150px;
+}
+
+.potential-section img {
+    height: 90%;
+}
+
+.potential-s {
+    line-height: 145%;
+    width: 100%;
+    text-align: center;
+    color: #555;
+    margin-bottom: 30px;
+}
+
+/*-- CONTACT-SECTION --*/
+
+.contact-section {
+    padding-top: 120px;
+    background-color: #e74c3c;
+    padding-bottom: 70px;
+}
+
+.contact-section h2 {
+    color: white;
+}
+
+.contact-section h2:after {
+    display: block;
+    height: 2px;
+    background-color: white;
+    content: " ";
+    width: 200px;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+
+/* ------------------------------------- */
+/* FOOTER */
+/* ------------------------------------- */
+/*-- MAIN FOOTER --*/
+
+.main-footer {
+    background-color: rgba(0, 0, 0, 0.900);
+    color: #7f8c8d;
+    clear: both;
+}
+
+/* ------------------------------------- */
+/* SECONDARY HTML FILES */
+/* ------------------------------------- */
+
+/*-- ABOUT HTML FILE --*/
+
+.history-section, 
+.businessprocess-section,
+.operate-section {
+    padding-top: 120px; 
+    padding-bottom: 70px;
+}
+
+.history-section {
+    background-color: white;
+}
+
+.businessprocess-section {
+    background-color: #f4f4f4;
+}
+
+.operate-section {
+    background-color: #e74c3c;
+}
+
+.operate-section h2,
+.operate-section p {
+    color: white;
+    text-align: center;
+}
+
+.operate-section h2:after {
+    display: block;
+    height: 2px;
+    background-color: white;
+    content: " ";
+    width: 200px;
+    margin: 0 auto;
+    margin-top: 30px;
+}    
+
+.diamond {
+    height: 470px;
+    width: 660px;
+}
+
+.blueprint {
+    height: 480px;
+    width: 580px;
+}
+
+.journey {
+    height: 280px;
+    width: 600px;
+}
+/*-- EQUIPMENT HTML FILE --*/
+
+.equipment-showcase {
+    list-style: none;
+    width: 100%;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+.equipment-showcase li {
+    display: block;
+    width: 50%;
+}
+
+.equipment-photo {
+    width: 100%;
+    margin: 0;
+    overflow: hidden;
+    background-color: #000;
+}
+
+.equipment-photo img {
+    opacity: 0.7;
+    width: 100%; 
+    height: auto;
+    transform: scale(1.18);
+    transition: transform 0.5s, opacity 0.5s;
+}
+
+.equipment-photo img:hover {
+    opacity: 1;
+    transform: scale(1.03);
+}
+
+.equipment-photo content img:hover {
+    opacity: 1;
+}
+
+.img__description {
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(29, 106, 154, 0.72);
+    color: #fff;
+    visibility: hidden;
+    opacity: 0;
+}
+
+/*-- CAREERS HTML FILE --*/
+
+.position-section, 
+.available-section,
+.signup-section {
+    padding-top: 120px; 
+}
+
+.position-section {
+    background-color: white;
+    padding-bottom: 70px;
+}
+
+.available-section {
+    background-color: #f4f4f4;
+    padding-bottom: 120px;
+}
+
+.table {
+    width: 60%;
+    margin-left: 22%;
+    font-family: 'Lato';
+    text-align: left;
+
+}
+
+.table td{
+    font-weight: 400;
+}
+
+.table tr{
+    text-align: left;
+}
+
+.table .p-lg-feature {
+    font-weight: 380;
+    color: black;
+}
+
+
+.signup-section {
+    background-color: #e74c3c;
+    padding-bottom: 120px;
+}
+
+.signup-section h2 {
+    color: white;
+    text-align: center;
+}
+
+.signup-section h2:after {
+    display: block;
+    height: 2px;
+    background-color: white;
+    content: " ";
+    width: 200px;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+
+
